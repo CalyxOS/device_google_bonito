@@ -100,6 +100,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.dumpstate@1.0-service.bonito
 
+# whitelisted app
+PRODUCT_COPY_FILES += \
+    device/google/bonito/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml
+
 # Enable retrofit dynamic partitions for all bonito
 # and sargo targets
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
