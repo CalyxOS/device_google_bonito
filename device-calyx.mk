@@ -16,6 +16,11 @@ PRODUCT_COPY_FILES += \
 
 TARGET_PREBUILT_KERNEL := device/google/bonito-kernel/Image.lz4
 
+# RCS
+PRODUCT_PACKAGES += \
+    PresencePolling \
+    RcsService
+
 # Build necessary packages for product
 
 # Display
