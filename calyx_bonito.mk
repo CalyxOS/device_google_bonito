@@ -11,3 +11,5 @@ PRODUCT_MODEL := Pixel 3a XL
 PRODUCT_BRAND := google
 
 PRODUCT_RESTRICT_VENDOR_FILES := false
+
+$(call inherit-product, vendor/google/bonito/bonito-vendor.mk)

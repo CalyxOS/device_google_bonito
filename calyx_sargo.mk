@@ -11,3 +11,5 @@ PRODUCT_MODEL := Pixel 3a
 PRODUCT_BRAND := google
 
 PRODUCT_RESTRICT_VENDOR_FILES := false
+
+$(call inherit-product, vendor/google/sargo/sargo-vendor.mk)
