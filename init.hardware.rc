@@ -155,6 +155,9 @@ on init && property:vendor.skip.init=0
     chown system system /sys/devices/platform/soc/soc:google,charger/bd_temp_enable
     chown system system /sys/devices/platform/soc/soc:google,charger/bd_clear
 
+    # Health HAL
+    chown system system /sys/devices/virtual/thermal/tz-by-name/soc/mode
+
 on late-init
     chown system system /sys/devices/virtual/thermal/tz-by-name/mb-therm-monitor/trip_point_0_temp
     chown system system /sys/devices/virtual/thermal/tz-by-name/mb-therm-monitor/trip_point_0_hyst

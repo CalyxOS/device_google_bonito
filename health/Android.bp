@@ -18,13 +18,14 @@ package {
     default_applicable_licenses: ["Android-Apache-2.0"],
 }
 
-cc_binary {
-    name: "android.hardware.health@2.0-service.bonito",
-    init_rc: ["android.hardware.health@2.0-service.bonito.rc"],
+cc_library_shared {
+    name: "android.hardware.health@2.1-impl-bonito",
+    stem: "android.hardware.health@2.0-impl-2.1-bonito",
+
     proprietary: true,
     relative_install_path: "hw",
     srcs: [
-        "HealthService.cpp",
+        "Health.cpp",
         "BatteryRechargingControl.cpp",
         "BatteryInfoUpdate.cpp",
         "LearnedCapacityBackupRestore.cpp",
@@ -37,10 +38,10 @@ cc_binary {
     ],
 
     static_libs: [
-        "android.hardware.health@2.0-impl",
         "android.hardware.health@1.0-convert",
-        "libhealthservice",
         "libbatterymonitor",
+        "libhealth2impl",
+        "libhealthloop",
     ],
 
     shared_libs: [
@@ -50,11 +51,6 @@ cc_binary {
         "libpixelhealth",
         "libutils",
         "android.hardware.health@2.0",
-    ],
-
-    header_libs: ["libhealthd_headers"],
-
-    overrides: [
-        "healthd",
+        "android.hardware.health@2.1",
     ],
 }
