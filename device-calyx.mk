@@ -8,3 +8,5 @@ PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
     PresencePolling \
     RcsService
+
+DEVICE_PACKAGE_OVERLAYS += device/google/bonito/overlay-calyx
