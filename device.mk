@@ -75,6 +75,10 @@ ifeq ($(wildcard vendor/google_devices/bonito/proprietary/device-vendor-bonito.m
     BUILD_WITHOUT_VENDOR := true
 endif
 
+ifneq ($(INLINE_KERNEL_BUILDING),true)
+TARGET_PREBUILT_KERNEL := device/google/bonito-kernel/Image.lz4
+endif
+
 PRODUCT_CHARACTERISTICS := nosdcard
 PRODUCT_SHIPPING_API_LEVEL := 28
 
@@ -733,6 +737,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/google/bonito/vibrator/cs40l20/cs40l20.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l20.wmfw \
     device/google/bonito/vibrator/cs40l20/cs40l20.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l20.bin
+
+ifneq ($(INLINE_KERNEL_BUILDING),true)
+PRODUCT_VENDOR_KERNEL_HEADERS := device/google/bonito/sdm710/kernel-headers
+endif
 
 # Audio ACDB data
 PRODUCT_COPY_FILES += \
