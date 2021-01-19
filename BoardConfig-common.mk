@@ -66,6 +66,9 @@ BOARD_BOOT_HEADER_VERSION := 2
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 
 # DTBO partition definitions
+ifeq ($(INLINE_KERNEL_BUILDING),false)
+BOARD_PREBUILT_DTBOIMAGE := device/google/bonito-kernel/dtbo.img
+endif
 BOARD_DTBOIMG_PARTITION_SIZE := 8388608
 
 TARGET_NO_KERNEL := false
@@ -231,6 +234,17 @@ ODM_MANIFEST_G020H_FILES := device/google/bonito/nfc/manifest_se_eSE1.xml
 
 # Use mke2fs to create ext4 images
 TARGET_USES_MKE2FS := true
+
+# Kernel modules
+ifeq ($(INLINE_KERNEL_BUILDING),false)
+BOARD_VENDOR_KERNEL_MODULES += \
+    $(wildcard device/google/bonito-kernel/*.ko)
+endif
+
+# DTB
+ifeq ($(INLINE_KERNEL_BUILDING),false)
+BOARD_PREBUILT_DTBIMAGE_DIR := device/google/bonito-kernel
+endif
 
 # Testing related defines
 BOARD_PERFSETUP_SCRIPT := platform_testing/scripts/perf-setup/b4s4-setup.sh
