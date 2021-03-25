@@ -5,6 +5,8 @@ $(call inherit-product, vendor/calyx/config/common.mk)
 $(call inherit-product, device/google/bonito/device-calyx.mk)
 $(call inherit-product, device/google/bonito/aosp_sargo.mk)
 
+DEVICE_PACKAGE_OVERLAYS += vendor/google_devices/sargo/vendor_overlay/carrier-naked/
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := calyx_sargo
 PRODUCT_MODEL := Pixel 3a
