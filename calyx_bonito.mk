@@ -8,6 +8,8 @@ $(call inherit-product, device/google/bonito/aosp_bonito.mk)
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := calyx_bonito
 PRODUCT_MODEL := Pixel 3a XL
+PRODUCT_BRAND := google
+
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 PRODUCT_SOONG_NAMESPACES += vendor/google_devices/bonito
