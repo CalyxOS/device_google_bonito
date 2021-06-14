@@ -9,5 +9,6 @@ $(call inherit-product, device/google/bonito/aosp_sargo.mk)
 PRODUCT_NAME := calyx_sargo
 PRODUCT_MODEL := Pixel 3a
 PRODUCT_RESTRICT_VENDOR_FILES := false
+PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := relaxed
 
 PRODUCT_SOONG_NAMESPACES += vendor/google_devices/sargo
