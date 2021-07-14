@@ -1,3 +1,6 @@
+# Exclude generic APN/NFC configs
+TARGET_EXCLUDE_GENERIC_CONFIGS := true
+
 # Inherit some common stuff.
 $(call inherit-product, vendor/calyx/config/common.mk)
 
