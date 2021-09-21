@@ -1,0 +1,3 @@
+# Security patch
+ro.vendor.firmware.security_patch=2021-10-01
+ro.vendor.kernel.security_patch=2021-11-06

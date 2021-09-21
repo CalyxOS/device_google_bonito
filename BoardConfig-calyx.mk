@@ -11,3 +11,6 @@ TARGET_KERNEL_CONFIG := bonito_defconfig
 TARGET_KERNEL_SOURCE := kernel/google/msm-4.9
 TARGET_NEEDS_DTBOIMAGE := true
 endif
+
+# Properties
+TARGET_VENDOR_PROP += device/google/bonito/vendor.prop
