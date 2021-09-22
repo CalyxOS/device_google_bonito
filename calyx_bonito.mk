@@ -10,6 +10,12 @@ PRODUCT_NAME := calyx_bonito
 PRODUCT_MODEL := Pixel 3a XL
 PRODUCT_BRAND := google
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    TARGET_PRODUCT=bonito \
+    PRIVATE_BUILD_DESC="bonito-user 12 SQ1A.211205.008 7888514 release-keys"
+
+BUILD_FINGERPRINT := google/bonito/bonito:12/SQ1A.211205.008/7888514:user/release-keys
+
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 $(call inherit-product, vendor/google/bonito/bonito-vendor.mk)
