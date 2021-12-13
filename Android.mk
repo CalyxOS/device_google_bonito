@@ -90,14 +90,6 @@ $(IMS_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 	@rm -rf $@
 	$(hide) ln -sf /system/lib64/$(notdir $@) $@
 
-DM_LIBS := libdmengine.so libdmjavaplugin.so
-DM_SYMLINKS := $(addprefix $(TARGET_OUT_PRODUCT)/priv-app/DMService/lib/arm/,$(notdir $(DM_LIBS)))
-$(DM_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
-	@echo "DMService lib link: $@"
-	@mkdir -p $(dir $@)
-	@rm -rf $@
-	$(hide) ln -sf /product/lib/$(notdir $@) $@
-
-ALL_DEFAULT_INSTALLED_MODULES += $(RFS_MSM_ADSP_SYMLINKS) $(RFS_MSM_CDSP_SYMLINKS) $(RFS_MSM_MPSS_SYMLINKS) $(RFS_MSM_SLPI_SYMLINKS) $(EGL_32_SYMLINKS) $(EGL_64_SYMLINKS) $(IMS_SYMLINKS) $(DM_SYMLINKS)
+ALL_DEFAULT_INSTALLED_MODULES += $(RFS_MSM_ADSP_SYMLINKS) $(RFS_MSM_CDSP_SYMLINKS) $(RFS_MSM_MPSS_SYMLINKS) $(RFS_MSM_SLPI_SYMLINKS) $(EGL_32_SYMLINKS) $(EGL_64_SYMLINKS) $(IMS_SYMLINKS)
 
 endif
