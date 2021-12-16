@@ -24,6 +24,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2030c908_29ab4420",
+        "filename": "bonito/proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-16T16:10:32Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "65bef308_a262c9f2",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 20
+      },
+      "revId": "6cfd0877ead3c067d478a9133d449c7b392d8cb4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9bcfb97e_635ed549",
@@ -37,6 +61,30 @@
       "writtenOn": "2021-12-16T15:35:46Z",
       "side": 0,
       "message": "Don\u0027t remove",
+      "range": {
+        "startLine": 64,
+        "startChar": 0,
+        "endLine": 67,
+        "endChar": 42
+      },
+      "revId": "6cfd0877ead3c067d478a9133d449c7b392d8cb4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "01f0e734_168aa850",
+        "filename": "bonito/proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-16T16:10:32Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "9bcfb97e_635ed549",
       "range": {
         "startLine": 64,
         "startChar": 0,
