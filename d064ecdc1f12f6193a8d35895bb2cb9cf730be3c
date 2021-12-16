@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f27b0917_cfb89e4d",
+        "filename": "BoardConfig-calyx.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2021-12-16T15:15:55Z",
+      "side": 1,
+      "message": "Remove",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 30
+      },
+      "revId": "d064ecdc1f12f6193a8d35895bb2cb9cf730be3c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f22f11bc_b570bae6",
+        "filename": "BoardConfig-calyx.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2021-12-16T15:15:55Z",
+      "side": 1,
+      "message": "Remove",
+      "range": {
+        "startLine": 24,
+        "startChar": 0,
+        "endLine": 26,
+        "endChar": 5
+      },
+      "revId": "d064ecdc1f12f6193a8d35895bb2cb9cf730be3c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4ce6afcc_eb9ef0de",
+        "filename": "BoardConfig-calyx.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2021-12-16T15:15:55Z",
+      "side": 1,
+      "message": "Remove",
+      "range": {
+        "startLine": 29,
+        "startChar": 0,
+        "endLine": 30,
+        "endChar": 45
+      },
+      "revId": "d064ecdc1f12f6193a8d35895bb2cb9cf730be3c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
