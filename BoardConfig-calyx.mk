@@ -10,6 +10,9 @@ BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 DEVICE_MANIFEST_FILE += device/google/bonito/lineage_manifest.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/calyx/config/device_framework_matrix.xml
 
+# NDK platform
+NEED_AIDL_NDK_PLATFORM_BACKEND := true
+
 # Partitions
 AB_OTA_PARTITIONS += \
     vendor
