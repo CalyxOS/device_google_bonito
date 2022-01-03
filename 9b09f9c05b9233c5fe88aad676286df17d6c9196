@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0b0238ef_98bbb994",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-01-03T15:52:33Z",
+      "side": 1,
+      "message": "Hold, also present on other devices, should remove them all at the same time.",
+      "revId": "9b09f9c05b9233c5fe88aad676286df17d6c9196",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
