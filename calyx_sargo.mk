@@ -12,9 +12,9 @@ PRODUCT_BRAND := google
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=sargo \
-    PRIVATE_BUILD_DESC="sargo-user 12 SQ1A.220105.002 7961164 release-keys"
+    PRIVATE_BUILD_DESC="sargo-user 12 SQ1A.220205.002 8010174 release-keys"
 
-BUILD_FINGERPRINT := google/sargo/sargo:12/SQ1A.220105.002/7961164:user/release-keys
+BUILD_FINGERPRINT := google/sargo/sargo:12/SQ1A.220205.002/8010174:user/release-keys
 
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
