@@ -1116,6 +1116,10 @@ VENDOR_SKIP_FILES=(
 
     # Test mapping
     "firmware/TEST_MAPPING"
+
+    # 12L
+    "lib/libmediautils_vendor.so"
+    "lib/libmemunreachable.so"
 )
 
 generate_prop_list_from_image "${_input_image}" "${_output_file}" VENDOR_SKIP_FILES
