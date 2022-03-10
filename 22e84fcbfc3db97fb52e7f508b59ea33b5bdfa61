@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eadc4952_fe316795",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-03-10T20:35:01Z",
+      "side": 1,
+      "message": "Could squash into initial product makefiles commit next time.",
+      "revId": "22e84fcbfc3db97fb52e7f508b59ea33b5bdfa61",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
