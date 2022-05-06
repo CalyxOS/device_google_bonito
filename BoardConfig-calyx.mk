@@ -19,3 +19,5 @@ BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 # SELinux
 BOARD_SEPOLICY_DIRS += device/google/bonito/sepolicy-lineage/dynamic
 BOARD_SEPOLICY_DIRS += device/google/bonito/sepolicy-lineage/vendor
+
+PLATFORM_SECURITY_PATCH := 2022-05-05
