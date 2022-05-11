@@ -825,6 +825,10 @@ endif
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
 
+# Compile SystemUI on device with `speed`.
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.systemuicompilerfilter=speed
+
 # Enable stats logging in LMKD
 TARGET_LMKD_STATS_LOG := true
 
