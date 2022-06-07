@@ -12,9 +12,9 @@ PRODUCT_BRAND := google
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=sargo \
-    PRIVATE_BUILD_DESC="sargo-user 12 SP2A.220505.002 8353555 release-keys"
+    PRIVATE_BUILD_DESC="sargo-user 12 SP2A.220505.006 8561491 release-keys"
 
-BUILD_FINGERPRINT := google/sargo/sargo:12/SP2A.220505.002/8353555:user/release-keys
+BUILD_FINGERPRINT := google/sargo/sargo:12/SP2A.220505.006/8561491:user/release-keys
 
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
