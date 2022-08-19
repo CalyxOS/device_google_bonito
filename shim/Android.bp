@@ -1,0 +1,41 @@
+//
+// Copyright (C) 2022 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_library_shared {
+    name: "android.frameworks.stats-V1-ndk_platform",
+    shared_libs: ["android.frameworks.stats-V1-ndk"],
+    vendor: true,
+}
+
+cc_library_shared {
+    name: "android.hardware.identity-V3-ndk_platform",
+    shared_libs: ["android.hardware.identity-V3-ndk"],
+    vendor: true,
+}
+
+cc_library_shared {
+    name: "android.hardware.keymaster-V3-ndk_platform",
+    shared_libs: ["android.hardware.keymaster-V3-ndk"],
+    vendor: true,
+}
+
+cc_library_shared {
+    name: "android.hardware.power-V1-ndk_platform",
+    shared_libs: ["android.hardware.power-V1-ndk"],
+    vendor: true,
+}
+
+cc_library_shared {
+    name: "android.hardware.power.stats-V1-ndk_platform",
+    shared_libs: ["android.hardware.power.stats-V1-ndk"],
+    system_ext_specific: true,
+}
+
+cc_library_shared {
+    name: "android.hardware.rebootescrow-V1-ndk_platform",
+    shared_libs: ["android.hardware.rebootescrow-V1-ndk"],
+    vendor: true,
+}
