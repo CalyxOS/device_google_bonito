@@ -29,25 +29,8 @@ CLEAN_VENDOR=true
 
 KANG=
 SECTION=
-
-while [ "${#}" -gt 0 ]; do
-    case "${1}" in
-        -n | --no-cleanup )
-                CLEAN_VENDOR=false
-                ;;
-        -k | --kang )
-                KANG="--kang"
-                ;;
-        -s | --section )
-                SECTION="${2}"; shift
-                CLEAN_VENDOR=false
-                ;;
-        * )
-                SRC="${1}"
-                ;;
-    esac
-    shift
-done
+SRC="${1}"
+SRC2="${2}"
 
 if [ -z "${SRC}" ]; then
     SRC="adb"
@@ -65,7 +48,11 @@ function blob_fixup() {
 # Initialize the helper
 setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" false "${CLEAN_VENDOR}"
 
+echo main
 extract "${MY_DIR}/proprietary-files.txt" "${SRC}" "${KANG}" --section "${SECTION}"
+echo radio
+extract "${MY_DIR}/proprietary-files-radio.txt" "${SRC2}" "${KANG}" --section "${SECTION}"
+echo vendor
 extract "${MY_DIR}/proprietary-files-vendor.txt" "${SRC}" "${KANG}" --section "${SECTION}"
 
 "${MY_DIR}/setup-makefiles.sh"
