@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c8e2b93d_6f09d639",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-09-19T18:10:17Z",
+      "side": 1,
+      "message": "Ooh we could consider setting this to false in a followup.\n\nMaybe just on prod/user builds to make our lives easier.",
+      "revId": "caad6463771a9ed994a3ddef1b237cf53d483d85",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
