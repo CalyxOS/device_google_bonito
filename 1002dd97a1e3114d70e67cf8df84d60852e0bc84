@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4fcacdc9_6583b2b4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-09-19T16:17:56Z",
+      "side": 1,
+      "message": "usb/usb/Usb.{cpp,h} left to port, non trivial.\n\nWe might not have all features (e.g. power limits) available here",
+      "revId": "1002dd97a1e3114d70e67cf8df84d60852e0bc84",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
