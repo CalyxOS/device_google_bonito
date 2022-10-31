@@ -6,9 +6,6 @@ media.mediadrmservice.enable=true
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 
-# RIL
-ro.telephony.block_binder_thread_on_incoming_calls=false
-
 # Security patch
 ro.vendor.firmware.security_patch=2022-05-05
 ro.vendor.kernel.security_patch=2022-09-05
