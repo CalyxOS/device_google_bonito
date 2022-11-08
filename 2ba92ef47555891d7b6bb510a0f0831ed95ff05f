@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "853066f6_08b77edf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-11-08T14:10:27Z",
+      "side": 1,
+      "message": "`-L, --files-without-match  print only names of FILEs with no selected lines`\n\n\u003e it only adds the dep if it doesn\u0027t exist, because patchelf isn\u0027t smart",
+      "revId": "2ba92ef47555891d7b6bb510a0f0831ed95ff05f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
