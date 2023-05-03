@@ -8,5 +8,5 @@ ro.hardware.vulkan=adreno
 
 # Security patch
 ro.vendor.firmware.security_patch=2022-05-05
-# Kernel partially patched for 2023-04-05
+# Kernel partially patched for 2023-05-05
 ro.vendor.kernel.security_patch=2023-01-05
