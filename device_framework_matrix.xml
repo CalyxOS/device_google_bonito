@@ -1,18 +1,4 @@
 <compatibility-matrix version="1.0" type="framework">
-    <hal format="hidl" optional="true">
-        <name>android.hardware.media.c2</name>
-        <version>1.0</version>
-        <interface>
-            <name>IComponentStore</name>
-            <instance>default</instance>
-            <instance>software</instance>
-        </interface>
-        <interface>
-            <name>IConfigurable</name>
-            <instance>default</instance>
-            <instance>software</instance>
-        </interface>
-    </hal>
     <hal format="hidl">
         <name>com.qualcomm.qti.imscmservice</name>
         <transport>hwbinder</transport>
@@ -28,14 +14,6 @@
         <interface>
             <name>IUceService</name>
             <instance>com.qualcomm.qti.uceservice</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>android.hardware.radio.config</name>
-        <version>1.1</version>
-        <interface>
-            <name>IRadioConfig</name>
-            <instance>default</instance>
         </interface>
     </hal>
     <hal format="hidl" optional="true">
