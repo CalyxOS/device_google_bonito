@@ -46,6 +46,9 @@ lib64/libsecureui_svcsock_system.so
 
 # product partition
 
+# Camera extensions
+product/app/PixelCameraServicesBonito/PixelCameraServicesBonito.apk;PRESIGNED
+
 # Charger
 product/etc/res/images/charger/battery_fail.png
 product/etc/res/images/charger/battery_scale.png
@@ -66,6 +69,10 @@ product/lib/libsecureuisvc_jni.so
 product/lib64/libsecureuisvc_jni.so
 
 # system_ext partition
+
+# Camera extensions
+system_ext/etc/permissions/com.google.android.camera.extensions.xml
+system_ext/framework/com.google.android.camera.extensions.jar
 
 # Radio
 system_ext/etc/permissions/com.google.euiccpixel.permissions.xml
