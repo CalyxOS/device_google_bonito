@@ -55,7 +55,7 @@ fi
 
 function blob_fixup() {
     case "${1}" in
-        vendor/bin/hw/android.hardware.rebootescrow-service.citadel)
+        vendor/bin/hw/android.hardware.rebootescrow-service.citadel | vendor/lib64/libkeymaster4_1support.so | vendor/lib64/libkeymaster4support.so | vendor/lib64/libkeymaster_portable.so)
             "${PATCHELF}" --replace-needed "libcrypto.so" "libcrypto-v33.so" "${2}"
             ;;
     esac
