@@ -16,6 +16,24 @@
       "message": "Why? 😊",
       "revId": "c62dfa904c1808b5d94ec4532cdcdf7786e7f53d",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6e0052b6_2d4acb7f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2024-03-20T18:17:26Z",
+      "side": 1,
+      "message": "Something related to lib loading has changed in QPR2, resulting in things not being able to access libs in other partitions. I noticed in logs that at least secureui was crashing on calyx and not lineage where this commit has been shipping for a few months.",
+      "parentUuid": "ed81f4bb_d99fee78",
+      "revId": "c62dfa904c1808b5d94ec4532cdcdf7786e7f53d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
