@@ -1,5 +1,5 @@
 # CNE - from coral - TP1A.221005.002.B2
-vendor/app/CneApp/CneApp.apk|8c05c492f3673a0e52d86dbd01c144d502fe51f5
+vendor/app/CneApp/CneApp.apk;REQUIRED=CneApp.libvndfwk_detect_jni.qti_symlink|8c05c492f3673a0e52d86dbd01c144d502fe51f5
 vendor/bin/cnd|00c98e93cb936320d90af32a26078e6e97a8c5eb
 vendor/etc/cne/Nexus/ATT/ATT_profiles.xml|a0039cb3a4c5a4ca1adf897904b61c91e32d06f7|33e568627fd3f94dc45bca1c01ad10e6d8fb5b52
 vendor/etc/cne/Nexus/ROW/ROW_profiles.xml|e3907ff71cbbe0f1073ec1bf0223d26c8282aa35|238e785e9674b27c4b2365958d127533d7293132
