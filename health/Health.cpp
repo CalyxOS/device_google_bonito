@@ -116,7 +116,7 @@ void fill_emmc_storage_attribute(StorageAttribute* attr) {
     attr->name = kEmmcName;
 }
 
-void private_healthd_board_init(struct healthd_config *hc) {
+void private_healthd_board_init(struct healthd_config*) {
     ccBackupRestoreBMS.Restore();
     lcBackupRestore.Restore();
 }
